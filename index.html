@@ -4,8 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Front End Task 1</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {},
+              fontFamily: {
+                helvetica:['Helvetica Neue']
+                }
+            }
+          }
+        }
+      </script>
+
+    <!-- Font -->
+    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
+
 </head>
-<body>
-    
+<body class="font-Helvetica">
+    <nav class="w-screen h-20 px-10 flex flex-col justify-center bg-gradient-to-b from-yellow-100 via-yellow-100">
+        <div class="flex flex-row items-center justify-between">
+            <div>
+                <p>Nama Toko</p>
+            </div>
+            <div class="flex flex-row items-center gap-5">
+                <ul class="flex flex-row items-center gap-5">
+                    <li><a href="">tombol</a></li>
+                    <li><a href="">tombol</a></li>
+                    <li><a href="">tombol</a></li>
+                    <li><a href="">tombol</a></li>
+                </ul>
+                <button class="w-20 h-7 flex justify-center rounded-sm outline outline-2 outline-red-500">
+                    <a href="">tombol</a>
+                </button>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
