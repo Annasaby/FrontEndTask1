@@ -1,47 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Front End Task 1</title>
 
     <!-- Tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {},
-              fontFamily: {
-                helvetica:['Helvetica Neue']
-                }
-            }
-          }
-        }
-      </script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {},
+            fontFamily: {
+              helvetica: ["Helvetica Neue"],
+            },
+          },
+        },
+      };
+    </script>
 
     <!-- Font -->
-    <link href="https://fonts.cdnfonts.com/css/helvetica-neue-55" rel="stylesheet">
-
-</head>
-<body class="font-Helvetica">
-    <nav class="w-screen h-20 px-10 flex flex-col justify-center bg-gradient-to-b from-yellow-100 via-yellow-100">
-        <div class="flex flex-row items-center justify-between">
-            <div>
-                <p>Nama Toko</p>
-            </div>
-            <div class="flex flex-row items-center gap-5">
-                <ul class="flex flex-row items-center gap-5">
-                    <li><a href="">tombol</a></li>
-                    <li><a href="">tombol</a></li>
-                    <li><a href="">tombol</a></li>
-                    <li><a href="">tombol</a></li>
-                </ul>
-                <button class="w-20 h-7 flex justify-center rounded-sm outline outline-2 outline-red-500">
-                    <a href="">tombol</a>
-                </button>
-            </div>
+    <link
+      href="https://fonts.cdnfonts.com/css/helvetica-neue-55"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-Helvetica">
+    <nav
+      class="w-screen h-20 px-10 flex flex-col justify-center bg-gradient-to-b from-yellow-100 via-yellow-100"
+    >
+      <div class="flex flex-row items-center justify-between">
+        <div>
+          <p>Nama Toko</p>
         </div>
+        <div class="flex flex-row items-center gap-5">
+          <ul class="flex flex-row items-center gap-5">
+            <li><a href="">tombol</a></li>
+            <li><a href="">tombol</a></li>
+            <li><a href="">tombol</a></li>
+            <li><a href="">tombol</a></li>
+          </ul>
+          <button
+            class="w-20 h-7 flex justify-center rounded-sm outline outline-2 outline-red-500"
+          >
+            <a href="">tombol</a>
+          </button>
+        </div>
+      </div>
     </nav>
-</body>
+
+    <section class="bg-red-500 w-screen h-96 px-10 flex flex-row justify-center gap-10">
+      <div class="flex flex-col justify-between">
+        <div>
+          <p>DESIGN INSPIRATION</p>
+          <h1>Convallis turpis erat tempus, viverra aliquet.</h1>
+          <button class="bg-blue-700">get in touch</button>
+        </div>
+        <div class="mb-1">
+          <p>"i feel so much less stresssed X as i now know by the book."</p>
+          <div class="flex gap-5">
+            <img class="h-10" src="siput.jpg" alt="" />
+            <div class="">
+              <h1>andry ford</h1>
+              <p>CEO at whatever</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-80">
+        <img class="" src="siput.jpg" alt="" />
+      </div>
+    </section>
+  </body>
 </html>
