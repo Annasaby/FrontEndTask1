@@ -1,13 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./public/index.html"],
   theme: {
     extend: {
       fontFamily: {
-        Helvetica: ["Helvetica Neue", "sans-serif"],
-      },
+        helvetica: ['Helvetica Neue','sans-serif'],
+      }
     },
-    
   },
   plugins: [],
 }
