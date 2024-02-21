@@ -23,6 +23,10 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   </head>
   <body
     class="font-helvetica overflow-x-hidden flex flex-col gap-24 bg-emerald-100"
@@ -49,7 +53,7 @@
         </div>
         <div
           id="nav-side"
-          class="md:bg-transparent md:flex md:flex-row md:items-center md:gap-5 md:relative md:w-fit md:left-auto md:p-0  absolute w-full left-0 p-10 md:opacity-100 md:top-0 bg-amber-100 opacity-0 top-[400px] transition-all ease-in duration-500  "
+          class="md:bg-transparent md:flex md:flex-row md:items-center md:gap-5 md:relative md:w-fit md:left-auto md:p-0  absolute w-full left-0 p-10 md:opacity-100 md:top-0 bg-amber-100 opacity-0  transition-all ease-in duration-500  "
         >
           <ul
             class="flex md:flex-row md:items-center md:gap-5 flex-col gap-5 my-5"
@@ -84,9 +88,9 @@
             </li>
           </ul>
           <button
-            class="w-28 h-7 flex justify-center rounded-md outline outline-1 bg-emerald-100 hover:bg-emerald-300 outline-gray-500"
+            class="w-28 h-7 flex justify-center rounded-md outline outline-1 outline-gray-500 bg-gradient-to-br from-emerald-400 via-lime-300 to-cyan-100"
           >
-            <a href="" class="text-primary">Get in touch</a>
+            <a href="" class="">Get in touch</a>
           </button>
         </div>
       </div>
@@ -96,7 +100,7 @@
     <section
       class="w-screen px-10 flex flex-row flex-wrap justify-center gap-x-64 pt-36 pb-10 relative overflow-hidden"
     >
-      <div class="flex flex-col w-96 gap-y-5">
+      <div data-aos="fade-right" data-aos-duration="2000"  class="flex flex-col w-96 gap-y-5">
         <div class="flex flex-col gap-y-9">
           <div class="flex flex-col gap-y-1">
             <p class="text-gray-800">DESIGN INSPIRATION</p>
@@ -119,7 +123,7 @@
           </div>
         </div>
       </div>
-      <div class="w-80 h=80 ">
+      <div data-aos="fade-left" data-aos-duration="2000"  class="w-80 h=80 ">
         <img class="rounded-xl" src="../Spongebob.png" alt="" />
       </div>
       <!-- <svg xmlns="http://www.w3.org/2000/svg" class="ionicon h-[300px] absolute -right-[190px] top-60" viewBox="0 0 512 512"><path d="M400 240c-8.89-89.54-71-144-144-144-69 0-113.44 48.2-128 96-60 6-112 43.59-112 112 0 66 54 112 120 112h260c55 0 100-27.44 100-88 0-59.82-53-85.76-96-88z" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"/></svg> -->
@@ -131,7 +135,7 @@
       <div
         class="md:w-9/12 w-full md:rounded-t-3xl bg-gradient-to-b from-amber-100 md:p-20 p-10 flex flex-col gap-20"
       >
-        <div class="flex flex-col gap-5 md:w-1/2 w-full">
+        <div data-aos="zoom-in" data-aos-duration="2000"  class="flex flex-col gap-5 md:w-1/2 w-full">
           <p>DESIGN CONCEPT</p>
           <p class="text-5xl">The best design for your studio website</p>
           <p class="text-sm">
@@ -144,7 +148,7 @@
 
         <div class="flex">
           <div>
-            <div class="flex gap-3">
+            <div data-aos="fade-down-right" data-aos-duration="2000" class="flex gap-3">
               <p class="text-2xl mt-3"><i class="bi bi-crosshair"></i></p>
               <div>
                 <h1 class="text-2xl">Design consept</h1>
@@ -155,7 +159,7 @@
                 <p></p>
               </div>
             </div>
-            <div class="flex gap-3">
+            <div data-aos="fade-up-right" data-aos-duration="2000" class="flex gap-3">
               <p class="text-2xl mt-3"><i class="bi bi-crosshair"></i></p>
               <div>
                 <h1 class="text-2xl">Design consept</h1>
@@ -168,7 +172,7 @@
             </div>
           </div>
           <div>
-            <div class="flex gap-3">
+            <div data-aos="fade-down-left" data-aos-duration="2000" class="flex gap-3">
               <p class="text-2xl mt-3"><i class="bi bi-crosshair"></i></p>
               <div>
                 <h1 class="text-2xl">Design consept</h1>
@@ -179,7 +183,7 @@
                 <p></p>
               </div>
             </div>
-            <div class="flex gap-3">
+            <div data-aos="fade-up-left" data-aos-duration="2000" class="flex gap-3">
               <p class="text-2xl mt-3"><i class="bi bi-crosshair"></i></p>
               <div>
                 <h1 class="text-2xl">Design consept</h1>
@@ -203,7 +207,7 @@
         </div>
 
         <div class="flex flex-wrap justify-center gap-10 ">
-          <div
+          <div data-aos="flip-right" data-aos-duration="500"
             class="w-52 bg-gradient-to-tl from-slate-200 rounded-md drop-shadow-2xl"
           >
             <div class="border-b-[1px] border-gray-500 p-3 ">
@@ -218,7 +222,7 @@
               <p class="text-sm text-gray-500">Experienced team</p>
             </div>
           </div>
-          <div
+          <div data-aos="flip-right" data-aos-duration="500"
             class="w-52 bg-gradient-to-tl from-slate-200 rounded-md drop-shadow-2xl"
           >
             <div class="border-b-[1px] border-gray-500 p-3">
@@ -233,7 +237,7 @@
               <p class="text-sm text-gray-500">Experienced team</p>
             </div>
           </div>
-          <div
+          <div data-aos="flip-right" data-aos-duration="500"
             class="w-52 bg-gradient-to-tl from-slate-200 rounded-md drop-shadow-2xl"
           >
             <div class="border-b-[1px] border-gray-500 p-3">
@@ -255,7 +259,7 @@
     <!-- Section 3 -->
     <section class="w-screen px-10 flex justify-center py-10 gap-3">
       <div class="flex flex-col justify-center items-center gap-14">
-        <div class="w-3/4 flex flex-col items-center gap-3">
+        <div data-aos="zoom-in-up" data-aos-duration="500" class="w-3/4 flex flex-col items-center gap-3">
           <h1 class="text-3xl font-medium">Our leadership</h1>
           <p class="text-center text-xs">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
@@ -263,7 +267,7 @@
           </p>
         </div>
         <div class="flex flex-wrap justify-center gap-5">
-          <div class="flex flex-col justify-center gap-3">
+          <div data-aos="flip-right" data-aos-duration="500" class="flex flex-col justify-center gap-3">
             <div class="">
               <img class="h-32 rounded-md" src="../Spongebob.png" alt="" />
             </div>
@@ -272,7 +276,7 @@
               <p class="font-light tracking-wider">CEO at whatever</p>
             </div>
           </div>
-          <div class="flex flex-col justify-center gap-3">
+          <div data-aos="flip-right" data-aos-duration="500" class="flex flex-col justify-center gap-3">
             <div class="">
               <img class="h-32 rounded-md" src="../Spongebob.png" alt="" />
             </div>
@@ -281,7 +285,7 @@
               <p class="font-light tracking-wider">CEO at whatever</p>
             </div>
           </div>
-          <div class="flex flex-col justify-center gap-3">
+          <div data-aos="flip-right" data-aos-duration="500" class="flex flex-col justify-center gap-3">
             <div class="">
               <img class="h-32 rounded-md" src="../Spongebob.png" alt="" />
             </div>
@@ -290,7 +294,7 @@
               <p class="font-light tracking-wider">CEO at whatever</p>
             </div>
           </div>
-          <div class="flex flex-col justify-center gap-3">
+          <div data-aos="flip-right" data-aos-duration="500" class="flex flex-col justify-center gap-3">
             <div class="">
               <img class="h-32 rounded-md" src="../Spongebob.png" alt="" />
             </div>
@@ -309,7 +313,7 @@
       class="w-screen md:px-10 px-5 flex flex-col items-center gap-10 py-10"
     >
       <div class="flex flex-col gap-10 md:w-1/2">
-        <div
+        <div data-aos="fade-right" data-aos-duration="300"
           class="mb-1 flex flex-col gap-y-3 bg-gradient-to-br from-emerald-100 from-[5%] via-amber-100 p-1 rounded-lg"
         >
           <p>
@@ -325,7 +329,7 @@
             </div>
           </div>
         </div>
-        <div
+        <div data-aos="fade-left" data-aos-duration="300"
           class="mb-1 flex flex-col gap-y-3 bg-gradient-to-br from-emerald-100 from-[5%] via-amber-100 p-1 rounded-lg"
         >
           <p>"i feel so much less stresssed ❤️ as i now know by the book."</p>
@@ -416,6 +420,7 @@
   </body>
 
   <script>
+    
     let navSide = document.querySelector("#nav-side");
     let navBar = document.querySelector("#nav-bar");
 
@@ -424,11 +429,18 @@
         ? ((e.name = "close"),
           navSide.classList.add("top-20"),
           navSide.classList.add("opacity-100"),
-          navBar.classList.add("from-[100%]"))
+          navBar.classList.add("from-[100%]"),
+          navBar.classList.remove("from-[60%]")
+          )
         : ((e.name = "menu"),
           navSide.classList.remove("top-20"),
-          navSide.classList.remove("opacity-100"),
-          navBar.classList.remove("from-[100%]"));
+          navSide.classList.remove("opacity-100")
+          ,navBar.classList.remove("from-[100%]")
+          );
     }
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
 </html>
